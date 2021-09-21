@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha"><br>
+        <label for="est_civil">Estado Civil:</label>
+        <select name="est_civil" id="est_civil">
+            <option value="0">Selecione</option>
+            <option value="1">Solteiro</option>
+            <option value="2">Casado</option>
+            <option value="3">Viúvo</option>
+        </select><br>
+        <label for="biografia">Biografia:</label>
+        <textarea name="biografia" id="biografia" cols="30" rows="10"></textarea>
+        <input type="file">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+        <button type="submit" name="enviar">Enviar</button>
+    </form>
+</body>
+</html>
